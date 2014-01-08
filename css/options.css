@@ -1,0 +1,298 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #737373;
+    background: #f0f0f0;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+#page-wrap {
+    width: 740px;
+    margin: 20px auto;
+    padding: 0 0 20px 0;
+    background: #fcfcfc;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page-wrap-title {
+    text-align: center;
+    font: 44pt Trebuchet MS, sans-serif;
+    color: white;
+    background-color: rgb(52, 103, 154);
+    margin: 0 0 5px 0;
+    line-height: 70px;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+}
+
+.category {
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.category-title {
+    background-color: rgb(56, 118, 181);
+    color: white;
+    width: 100%;
+    height: 31px;
+    display: table;
+}
+
+.input-category-title {
+    margin-left: 5px;
+    font-size: 15pt;
+    background-color: rgb(56, 118, 181);
+    border: 2px solid rgb(56, 118, 181);
+    outline: none;
+    color: white;
+    line-height: 25px;
+    display: block;
+    float: left;
+}
+
+.input-category-title:hover, .input-category-title:focus {
+    background-color: white;
+    color: black;
+    border-color: grey;
+}
+
+.category-entry {
+    width: 730px;
+    padding: 5px;
+    display: table;
+    position: relative;
+}
+
+.category-entry:hover {
+    background-color: rgb(103, 82, 117);
+    color: white;
+}
+
+.input-entry {
+    width: 265px;
+    height: 20px;
+    padding: 5px;
+    box-shadow: inset 0 1px 1px #ccc;
+    float: left;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    line-height: normal;
+    vertical-align: top;
+    color: #444;
+    border-radius: 2px;
+}
+
+.input-entry:hover, .input-entry:focus {
+    border-color: #105cb6;
+    outline: 0;
+    color: #222;
+}
+
+.input-entry-icon {
+    background: #ccc url(../icons/siteadmin.png) 11px 1px no-repeat;
+    width: 40px;
+    padding: 0;
+    margin-right: 5px;
+    text-indent: -9999px;
+}
+
+.input-entry-title {
+    width: 100px;
+}
+
+.input-entry-url {
+
+}
+
+.input-entry-url_path {
+    width: 150px;
+}
+
+.input-entry-param {
+    width: 103px;
+}
+
+.elem-http {
+    float: left;
+    margin: 0 3px;
+    line-height: 20px;
+    font-size: 16px;
+    height: 20px;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -ms-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(top, #eee, #ccc);
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+    -moz-border-radius: .2em;
+    -webkit-border-radius: .2em;
+    border-radius: .2em;
+    -moz-box-shadow: 0 0 1px 1px rgba(255, 255, 255, .8) inset, 0 1px 0 rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, .8) inset, 0 1px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, .8) inset, 0 1px 0 rgba(0, 0, 0, .3);
+}
+
+.button:hover {
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+    background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+    background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+    background-image: -o-linear-gradient(top, #fafafa, #ddd);
+    background-image: linear-gradient(top, #fafafa, #ddd);
+}
+
+.button:active {
+    -moz-box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3) inset;
+    -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3) inset;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.button:focus {
+    outline: 0;
+    background: #fafafa;
+}
+
+.button:before {
+    background: #ccc;
+    background: rgba(0, 0, 0, .1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    -moz-box-shadow: 1px 0 0 rgba(0, 0, 0, .5), 2px 0 0 rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 1px 0 0 rgba(0, 0, 0, .5), 2px 0 0 rgba(255, 255, 255, .5);
+    box-shadow: 1px 0 0 rgba(0, 0, 0, .5), 2px 0 0 rgba(255, 255, 255, .5);
+    -moz-border-radius: .15em 0 0 .15em;
+    -webkit-border-radius: .15em 0 0 .15em;
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+
+/* Buttons and inputs */
+
+button.button, input.button {
+    cursor: pointer;
+    overflow: visible; /* removes extra side spacing in IE */
+}
+
+/* removes extra inner spacing in Firefox */
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.save:before {
+    content: "\2714";
+}
+
+.add:before {
+    content: "\271A";
+}
+
+.remove:before {
+    content: "\2718";
+}
+
+.saved:before {
+    color: green;
+}
+
+/*
+.save {
+	color: white;
+	background-image: -webkit-linear-gradient(top, rgb(56, 118, 181), rgb(52, 103, 154));
+	line-height: 91px;
+	height: 90px;
+	position: fixed;
+	display: none;
+	top: 250px;
+	left: 1122px;
+}
+
+.save:hover {
+	background-image: -webkit-linear-gradient(top, rgb(22, 107, 194), rgb(20, 98, 176));
+}
+*/
+
+#hidden {
+    display: none;
+}
+
+.input-add-entry {
+    margin: 4px 3px 4px 6px !important;
+    font-size: 10px;
+    float: right;
+    padding: 0;
+}
+
+.input-add-entry:before {
+    margin: 0 !important;
+}
+
+.input-remove-entry {
+    font-size: 9px;
+    position: absolute;
+    right: 8px;
+    padding: 0;
+    display: none;
+    margin: 0;
+}
+
+.category-entry:hover .input-remove-entry {
+    display: block;
+}
+
+.input-remove-entry:before {
+    margin: 0 !important;
+}
+
+.input-remove-entry:active {
+    position: absolute !important;
+    top: 5px !important;
+}
+
+.input-remove-category {
+    margin: 4px 6px 4px 3px !important;
+    font-size: 10px;
+    float: right;
+    padding: 0;
+}
+
+.input-remove-category:before {
+    margin: 0 !important;
+}
+
+.reset-default-link {
+    font-size: 11px;
+}

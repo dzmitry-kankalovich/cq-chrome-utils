@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "CQ Chrome Utils",
+    "description": "Fast access to some CQ features",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": "icons/favicon16x16.png",
+        "default_popup": "popup.html"
+    }
+}
