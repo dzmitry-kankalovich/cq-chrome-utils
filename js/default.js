@@ -77,7 +77,7 @@ var _CQ = {
     "CRXDE": {
       "title": "CRXDE",
       "url": "",
-      "url_path": "/crxde",
+      "url_path": "/crx/de/index.jsp",
       "param": "",
       "icon": "icons/crxde.png"
     },
@@ -122,78 +122,41 @@ var _CQ = {
       "url_path": "/etc/replication.html",
       "param": "",
       "icon": "icons/cq.png"
-    }
-  },
-  "CQ Instances": {
-    "CI Publish": {
-      "title": "CI Publish",
-      "url": "http://54.72.37.45:8081",
-      "url_path": "/content/moneysupermarket/en_gb/insurance/car-insurance/question-set/results.html#?enquiryId=6f8ef842-ac7d-4758-8279-5d7b270362bd",
+    },
+    "Clean clientlibs": {
+      "title": "Clean clientlibs",
+      "url": "",
+      "url_path": "/libs/granite/ui/content/dumplibs.rebuild.html",
       "param": "",
       "icon": "icons/siteadmin.png"
     },
-    "CI Author": {
-      "title": "CI Author",
-      "url": "http://54.72.37.45:8080",
-      "url_path": "/content/moneysupermarket/en_gb/insurance/car-insurance/question-set/results.html#?enquiryId=6f8ef842-ac7d-4758-8279-5d7b270362bd",
+    "Tags": {
+      "title": "Tags",
+      "url": "",
+      "url_path": "/tagging",
       "param": "",
-      "icon": "icons/siteadmin.png"
+      "icon": "icons/cq.png"
     },
-    "Jenkins": {
-      "title": "Jenkins",
-      "url": "http://54.72.16.117:8080",
-      "url_path": "",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "Frontend CI": {
-      "title": "Frontend CI",
-      "url": "http://54.72.16.117:9000",
-      "url_path": "/#/motorinsurance/results?enquiryId=6f8ef842-ac7d-4758-8279-5d7b270362bd&partialEnquiryId=undefined",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "QA ELB": {
-      "title": "QA ELB",
-      "url": "http://msm-qa-elb-pub-1969091497.eu-west-1.elb.amazonaws.com/car-insurance.html",
-      "url_path": "",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "CI ELB": {
-      "title": "CI ELB",
-      "url": "http://msm-ci-elb-pub-2026406112.eu-west-1.elb.amazonaws.com/car-insurance.html",
-      "url_path": "",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "SIT 1 Publish": {
-      "title": "SIT 1 Publish",
-      "url": "http://54.76.189.18:8081/car-insurance.html",
-      "url_path": "",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "SIT 1 Author": {
-      "title": "SIT 1 Author",
-      "url": "http://54.76.189.18:8080/",
-      "url_path": "",
-      "param": "",
-      "icon": "icons/siteadmin.png"
-    },
-    "SIT 1 ELB": {
-      "title": "SIT 1 ELB",
-      "url": "www.sit1.gb.moneysupermarket.com/car-insurance.html",
-      "url_path": "",
+    "Query Debug": {
+      "title": "Query Debug",
+      "url": "",
+      "url_path": "/libs/cq/search/content/querydebug.html",
       "param": "",
       "icon": "icons/siteadmin.png"
     }
   },
-  "Confluence": {
-    "AEM Environments": {
-      "title": "AEM Environments",
-      "url": "https://moneysupermarket.atlassian.net/wiki/display/KS/AEM+Environments",
-      "url_path": "",
+  "Touch UI": {
+    "WCM": {
+      "title": "WCM",
+      "url": "",
+      "url_path": "/sites.html/content",
+      "param": "",
+      "icon": "icons/siteadmin.png"
+    },
+    "DAM": {
+      "title": "DAM",
+      "url": "",
+      "url_path": "/assets.html/content/dam",
       "param": "",
       "icon": "icons/siteadmin.png"
     }
